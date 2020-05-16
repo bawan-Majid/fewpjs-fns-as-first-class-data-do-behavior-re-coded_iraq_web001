@@ -20,7 +20,7 @@ else if(parsed>17){
 }
 
 function displayMessage(str){
-  document.getElementById('greeting').textContent = str;
+  document.getElementById('greeting').innerText = str;
   
 }
 
